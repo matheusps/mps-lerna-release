@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/matheusps/mps-lerna-release/compare/mps-test-lerna-admin@0.2.0...mps-test-lerna-admin@1.0.0) (2020-08-25)
+
+
+### Features
+
+* **input:** add type ([ebd29fd](https://github.com/matheusps/mps-lerna-release/commit/ebd29fdf42825a0cf55fba4d0813be8caf263c72))
+
+
+
+
+
 # [0.2.0](https://github.com/matheusps/mps-lerna-release/compare/mps-test-lerna-admin@0.1.0...mps-test-lerna-admin@0.2.0) (2020-08-25)
 
 
