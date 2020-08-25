@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/matheusps/mps-lerna-release/compare/mps-test-lerna-admin@0.1.0...mps-test-lerna-admin@0.2.0) (2020-08-25)
+
+
+### Features
+
+* **input:** remove forward ref ([d9569ff](https://github.com/matheusps/mps-lerna-release/commit/d9569ff57bff0fe620360d296b853e172083196b))
+
+
+### BREAKING CHANGES
+
+* **input:** If you forward a ref, it will not work
+
+
+
+
+
 # [0.1.0](https://github.com/matheusps/mps-lerna-release/compare/mps-test-lerna-admin@0.0.1...mps-test-lerna-admin@0.1.0) (2020-08-25)
 
 
