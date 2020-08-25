@@ -1,0 +1,24 @@
+{
+  "packages": ["components/*", "styleguides/*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "registry": "https://registry.npmjs.org/",
+  "loglevel": "success",
+  "command": {
+    "publish": {
+      "allowBranch": "master",
+      "bump": "patch",
+      "conventionalCommits": true,
+      "message": "chore(release): publish"
+    }
+  },
+  "ignoreChanges": [
+    "CHANGELOG.md",
+    "**/__fixtures__/**",
+    "**/*.snap",
+    "**/*.test.*",
+    "**/*.stories.*",
+    "**/*.md"
+  ]
+}

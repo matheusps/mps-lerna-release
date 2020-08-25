@@ -1,0 +1,48 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": ["components/*", "styleguides/*"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusps/mps-lerna-release.git"
+  },
+  "scripts": {
+    "lerna": "lerna",
+    "publish": "lerna publish",
+    "publish-canary": "lerna publish --canary --yes",
+    "build": "lerna run build",
+    "clean": "lerna clean && lerna run clean",
+    "bootstrap": "yarn install --frozen-lockfile && yarn build"
+  },
+  "engines": {
+    "yarn": "^1.17.3",
+    "node": ">=10.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "@commitlint/prompt": "^9.1.2",
+    "@types/react": "^16.9.47",
+    "@types/react-dom": "^16.9.8",
+    "@vtex/tsconfig": "^0.5.0",
+    "babel-loader": "^8.1.0",
+    "commitizen": "^4.2.0",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tsdx": "^0.13.3",
+    "typescript": "^4.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
